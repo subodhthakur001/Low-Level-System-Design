@@ -1,8 +1,6 @@
-package LLD.Structural.Observer.Observer;
+package LLD.Behavioural.Observer.Observer;
 
-import LLD.Structural.Observer.Observable.StockObservable;
-
-import java.util.EnumMap;
+import LLD.Behavioural.Observer.Observable.StockObservable;
 
 public class EmailAlertObserverImpl implements NotificationAlertObserver{
     String EmailId;

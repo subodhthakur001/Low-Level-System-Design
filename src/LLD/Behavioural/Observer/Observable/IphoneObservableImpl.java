@@ -1,6 +1,6 @@
-package LLD.Structural.Observer.Observable;
+package LLD.Behavioural.Observer.Observable;
 
-import LLD.Structural.Observer.Observer.NotificationAlertObserver;
+import LLD.Behavioural.Observer.Observer.NotificationAlertObserver;
 
 import java.util.ArrayList;
 import java.util.List;

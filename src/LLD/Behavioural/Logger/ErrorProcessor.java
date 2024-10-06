@@ -1,12 +1,12 @@
-package LLD.Structural.ChainOfResponsibility.Logger;
+package LLD.Behavioural.Logger;
 
-public class InfoProcessor extends LogProcessor{
-    public InfoProcessor(LogProcessor nextLogProcessor){
+public class ErrorProcessor extends LogProcessor{
+    public ErrorProcessor(LogProcessor nextLogProcessor){
         super(nextLogProcessor);
     }
 
     public void log(int logLevel, String message){
-        if(logLevel == INFO){
+        if(logLevel == ERROR){
             System.out.println("DEBUG: " + message);
         }
         else{

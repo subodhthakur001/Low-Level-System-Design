@@ -1,4 +1,4 @@
-package LLD.Structural.Iterator;
+package LLD.Behavioural.Iterator;
 
 public interface Iterator {
     boolean hasNext();

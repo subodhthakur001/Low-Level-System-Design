@@ -1,4 +1,4 @@
-package LLD.Structural.ChainOfResponsibility.Logger;
+package LLD.Behavioural.Logger;
 
 public abstract class LogProcessor {
 

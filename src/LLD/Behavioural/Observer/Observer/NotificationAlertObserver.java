@@ -1,4 +1,4 @@
-package LLD.Structural.Observer.Observer;
+package LLD.Behavioural.Observer.Observer;
 
 public interface NotificationAlertObserver {
 

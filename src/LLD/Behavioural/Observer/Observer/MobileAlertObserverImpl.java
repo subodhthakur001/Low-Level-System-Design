@@ -1,6 +1,6 @@
-package LLD.Structural.Observer.Observer;
+package LLD.Behavioural.Observer.Observer;
 
-import LLD.Structural.Observer.Observable.StockObservable;
+import LLD.Behavioural.Observer.Observable.StockObservable;
 
 public class MobileAlertObserverImpl implements NotificationAlertObserver{
     String username;

@@ -1,29 +1,6 @@
-import LLD.Structural.AdapterDesign.Adaptee.WeightMachineForBabiesImpl;
-import LLD.Structural.AdapterDesign.Adapter.WeightMachineAdapter;
-import LLD.Structural.AdapterDesign.Adapter.WeightMachineAdapterImpl;
-import LLD.Structural.Bridge.Dog;
-import LLD.Structural.Bridge.DogImplementation;
-import LLD.Structural.Bridge.LivingThings;
-import LLD.Structural.ChainOfResponsibility.Logger.DebugLogger;
-import LLD.Structural.ChainOfResponsibility.Logger.ErrorProcessor;
-import LLD.Structural.ChainOfResponsibility.Logger.InfoProcessor;
-import LLD.Structural.ChainOfResponsibility.Logger.LogProcessor;
-import LLD.Structural.Composite.Directory;
-import LLD.Structural.Composite.File;
-import LLD.Structural.Composite.FileSystem;
-import LLD.Structural.Decorator.BasePizza;
-import LLD.Structural.Decorator.ExtraCheese;
-import LLD.Structural.Decorator.Jalepeno;
-import LLD.Structural.Decorator.Margherita;
-import LLD.Structural.Iterator.Books;
-import LLD.Structural.Iterator.Library;
-import LLD.Structural.Observer.Observable.IphoneObservableImpl;
-import LLD.Structural.Observer.Observable.StockObservable;
-import LLD.Structural.Observer.Observer.EmailAlertObserverImpl;
-import LLD.Structural.Observer.Observer.MobileAlertObserverImpl;
-import LLD.Structural.Observer.Observer.NotificationAlertObserver;
+import LLD.Behavioural.Iterator.Books;
+import LLD.Behavioural.Iterator.Library;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
@@ -76,18 +53,18 @@ public class Main {
 
         //ITERATOR
 
-        List<Books> booksList = Arrays.asList(new Books(100,"Science"),
-                new Books(200,"Maths"),
-                new Books(100,"GK")
-        );
-
-        Library lib = new Library(booksList);
-        Iterator iterator = lib.createIterator();
-
-        while(iterator.hasNext()){
-            Books book = (Books) iterator.next();
-            System.out.println(book.getBookname());
-        }
+//        List<Books> booksList = Arrays.asList(new Books(100,"Science"),
+//                new Books(200,"Maths"),
+//                new Books(100,"GK")
+//        );
+//
+//        Library lib = new Library(booksList);
+//        Iterator iterator = lib.createIterator();
+//
+//        while(iterator.hasNext()){
+//            Books book = (Books) iterator.next();
+//            System.out.println(book.getBookname());
+//        }
 
 
 
